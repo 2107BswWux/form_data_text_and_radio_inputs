@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    padding: 0.5rem;
+}
+
+input::placeholder{
+    color:green;
+}
+::-webkit-input-placeholder{
+    color:green;
+}
